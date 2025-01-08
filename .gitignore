@@ -1,0 +1,6 @@
+# 忽略所有 build 和 .vscode 目录下的内容
+/build/
+/.vscode/
+
+# 忽略所有 .log 文件
+*.log

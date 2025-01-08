@@ -1,0 +1,10 @@
+CompileFlags:
+    Add:
+        - -I/home/omnisky/.vscode/CGgraph-V1.5/src/
+        - -I/home/omnisky/.vscode/CGgraph-V1.5/project
+        - -std=c++20
+        - --cuda-path=/usr/local/cuda
+        - --cuda-gpu-arch=sm_75
+        - -L/usr/local/cuda-11.7/lib64
+        - -I/usr/local/cuda-11.7/include
+        - -I/home/omnisky/cpj_app/boost-1.84.0/build/include/
