@@ -146,12 +146,6 @@ cuda_add_library(MY_CPP_CU SHARED
     ${CMAKE_CURRENT_SOURCE_DIR}/project/flag.cpp
 )
 
-#**********************************************************************************
-# add_subdirectory
-#**********************************************************************************
-# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/project/Grape)
-# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/project/SBEFG)
-# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/project/Ligra)
 
 SET(Program CGgraphV1.5)
 CUDA_ADD_EXECUTABLE(${Program} CGgraphV1.5.cu)
